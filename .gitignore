@@ -1,0 +1,83 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment variables & secrets
+.env
+!.env.example
+
+# Certificates, keys, sensitive credentials
+certs/
+*.pem
+*.key
+*.crt
+
+# SQLite / Local databases
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# Uploads / user generated media
+uploads/*
+!uploads/.gitkeep
+!uploads/complaints/.gitkeep
+!uploads/detections/.gitkeep
+!uploads/evidence/.gitkeep
+!uploads/videos/.gitkeep
+
+# Testing & coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+nosetests.xml
+coverage.xml
+*.cover
+
+# IDEs and OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# AI training runs & tracking
+runs/
+wandb/
+.cache/

@@ -1,0 +1,35 @@
+================================================================================
+VISIONGUARD AI - SIGN CONDITION CLASSIFICATION MODEL EVALUATION SUMMARY
+================================================================================
+
+MODEL:
+Sign Condition Classification
+
+ARCHITECTURE:
+MobileNetV3-Small (Custom 4-Class Linear Classification Head)
+
+CHECKPOINT FILE:
+models/sign_condition.pt
+
+CLASSES:
+1. damaged
+2. faded
+3. good
+4. obstructed
+
+CHECKPOINT METADATA:
+- epoch: 4
+- class_names: ['damaged', 'faded', 'good', 'obstructed']
+- checkpoint_recorded_accuracy: 1.0 (100.0%)
+
+DATASET STATUS:
+Actual confusion matrix cannot be generated because the validation/test images and corresponding ground-truth labels are not available in the current project.
+
+EVALUATION AUDIT DETAILS:
+- Inspected paths: 'datasets/sign_condition/val', 'datasets/sign_condition/test', workspace subdirectories.
+- Findings: The trained PyTorch model checkpoint 'models/sign_condition.pt' is present and verified, but the offline validation/test dataset splits with corresponding ground-truth labels were not packaged in the repository.
+- Rule Compliance: In accordance with project evaluation standards, no synthetic or fabricated confusion matrix was generated.
+
+RECOMMENDATION FOR CHAPTER 6 (PBL REPORT):
+To generate Figure 6.1 (Confusion Matrix) and classification metrics for the PBL report, provide the original validation/test dataset folder (e.g. datasets/sign_condition/val/ with class subfolders: damaged, faded, good, obstructed) or reference the checkpoint-verified validation accuracy of 100.0% (epoch 4).
+================================================================================

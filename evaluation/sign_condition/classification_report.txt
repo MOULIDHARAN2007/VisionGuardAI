@@ -1,0 +1,23 @@
+================================================================================
+VISIONGUARD AI - SIGN CONDITION CLASSIFICATION REPORT AUDIT
+================================================================================
+
+MODEL:
+Sign Condition Classification (MobileNetV3-Small)
+
+TARGET CLASSES:
+- damaged
+- faded
+- good
+- obstructed
+
+STATUS:
+Actual confusion matrix cannot be generated because the validation/test images and corresponding ground-truth labels are not available in the current project.
+
+MODEL CHECKPOINT VERIFICATION:
+- Checkpoint Path: models/sign_condition.pt
+- State Dict: Verified (torchvision.models.mobilenet_v3_small, Linear(1024, 4))
+- Checkpoint Stored Accuracy: 1.0 (100.0%)
+- Epoch: 4
+- Number of Evaluated Samples: 0 (No labeled validation dataset present in repository)
+================================================================================
